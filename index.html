@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicio Técnico de Lavarropas | Reparación y Mantenimiento</title>
+  <meta name="description" content="Servicio técnico de lavarropas a domicilio. Reparación, mantenimiento e instalación multimarca. Diagnóstico sin cargo y garantía de 90 días." />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:ital,ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" aria-label="Encabezado principal">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="nav__logo" aria-label="Servicio Técnico de Lavarropas">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <path d="M12 2v4l2 8L12 22l-8-4 1-5L12 3z"/>
+          </svg>
+          <span class="nav__logo-text">SERVITEC</span>
+        </a>
+        <button class="nav__toggle" aria-label="Menú principal" aria-expanded="false" id="navToggle">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#por-que" class="nav__link">Por qué nosotros</a></li>
+          <li><a href="#proceso" class="nav__link">Cómo trabajamos</a></li>
+          <li><a href="#faq" class="nav__link">Preguntas frecuentes</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="nav__cta">Presupuesto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Servicio técnico multimarca · A domicilio</p>
+          <h1 class="hero__title">Reparación de lavarropas a domicilio</h1>
+          <p class="hero__subtitle">
+            Diagnóstico gratuito, presupuesto antes de reparar y garantía de 90 días. Trabajamos con todas las marcas y modelos.
+          </p>
+          <div class="hero__actions">
+            <a href="https://wa.me/5491112345678?text=Hola%20quisiera%20solicitar%20un%20presupuesto%20para%20la%20reparación%20de%20mi%20lavarropa" class="btn btn--primary" target="_blank" rel="noopener">Pedir presupuesto por WhatsApp</a>
+            <a href="tel:+5491112345678" class="btn btn--secondary">Llamar ahora</a>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="stats">
+            <div class="stats__number"><span>+20</span> años</div>
+            <div class="stats__label">de experiencia</div>
+          </div>
+          <div class="stats">
+            <div class="stats__number"><span>+5.000</span> reparaciones</div>
+            <div class="stats__label">realizadas</div>
+          </div>
+          <div class="stats">
+            <div class="stats__number">90</div>
+            <div class="stats__label">días garantía</div>
+          </div>
+          <div class="stats">
+            <div class="stats__number">mismo día</div>
+            <div class="stats__label">de respuesta</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marcas -->
+    <section class="brands" aria-label="Marcas">
+      <div class="container">
+        <h2 class="section__title">Marcas con las que trabajamos</h2>
+        <div class="brands__grid">
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Drean_Logo.svg/200px-Drean_Logo.svg.png" alt="Drean" width="40" height="40" /></a>
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/LG_Logo.svg/200px-LG_Logo.svg.png" alt="LG" width="40" height="40" /></a>
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Samsung_Logo.svg/200px-Samsung_Logo.svg.png" alt="Samsung" width="40" height="40" /></a>
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Whirlpool_Logo.svg/200px-Whirlpool_Logo.svg.png" alt="Whirlpool" width="40" height="40" /></a>
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Electrolux_Logo.svg/200px-Electrolux_Logo.svg.png" alt="Electrolux" width="40" height="40" /></a>
+          <a href="#" class="brand__item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bosch_Logo.svg/200px-Bosch_Logo.svg.png" alt="Bosch" width="40" height="40" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios" aria-label="Servicios">
+      <div class="container">
+        <h2 class="section__title">Servicios</h2>
+        <p class="section__subtitle">Reparación, mantenimiento e instalación de lavarropas a domicilio</p>
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M12 2v4l2 8L12 22l-8-4 1-5L12 3z"/></svg></div>
+            <h3 class="service-card__title">Reparación general</h3>
+            <ul class="service-card__list">
+              <li>No calienta el agua</li>
+              <li>No centrifuga</li>
+              <li>Pierde agua</li>
+              <li>Ruidos extraños</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 1 1.4 1.4l1.6-1.6a1 1 0 0 1 0 1.4l-1.6 1.6a1 1 0 0 1-1.4 0l-2.3-2.3"/></svg></div>
+            <h3 class="service-card__title">Mantenimiento preventivo</h3>
+            <ul class="service-card__list">
+              <li>Limpieza de tambores</li>
+              <li>Revisión de filtros</li>
+              <li>Chequeo de mangueras</li>
+              <li>Lubricación de rodamientos</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+            <h3 class="service-card__title">Instalación y puesta a punto</h3>
+            <ul class="service-card__list">
+              <li>Conexión de redes</li>
+              <li>Nivelación y ajuste</li>
+              <li>Pruebas de funcionamiento</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+            <h3 class="service-card__title">Repuestos y recambios</h3>
+            <ul class="service-card__list">
+              <li>Piezas originales y compatibles</li>
+              <li>Cambio de bobinas y motores</li>
+              <li>Válvulas y bombas</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8"/><circle cx="3" cy="16" r="2"/><circle cx="21" cy="16" r="2"/></svg></div>
+            <h3 class="service-card__title">Electrónica y placas</h3>
+            <ul class="service-card__list">
+              <li>Diagnóstico de placas</li>
+              <li>Reprogramación de módulos</li>
+              <li>Sustitución de componentes</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7l2 2-5 5-3-3 2-5-5 3z"/></svg></div>
+            <h3 class="service-card__title">Mudanzas y desinstalación</h3>
+            <ul class="service-card__list">
+              <li>Traslado seguro de equipos</li>
+              <li>Desinstalación y reinstalación</li>
+              <li>Conexión en nuevo domicilio</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por qué nosotros -->
+    <section class="why-us" id="por-que" aria-label="Por qué nosotros">
+      <div class="container">
+        <div class="why-us__grid">
+          <div class="why-us__card">
+            <div class="why-us__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4l2 8L12 22l-8-4 1-5L12 3z"/></svg></div>
+            <h3 class="why-us__title">Garantía escrita 90 días</h3>
+            <p class="why-us__text">Todas nuestras reparaciones incluyen garantía por escrito de 90 días. Si el mismo problema vuelve a presentarse, lo solucionamos sin costo adicional.</p>
+          </div>
+          <div class="why-us__card">
+            <div class="why-us__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4"/></svg></div>
+            <h3 class="why-us__title">Repuestos de primera</h3>
+            <p class="why-us__text">Utilizamos únicamente repuestos de primera calidad o originales del fabricante. Trabajamos con proveedores certificados para asegurar la durabilidad de cada reparación.</p>
+          </div>
+          <div class="why-us__card">
+            <div class="why-us__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="why-us__title">Presupuesto cerrado</h3>
+            <p class="why-us__text">Antes de iniciar cualquier trabajo le entregamos un presupuesto cerrado y detallado. No hay sorpresas al final del servicio.</p>
+          </div>
+          <div class="why-us__card">
+            <div class="why-us__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4l2 8L12 22l-8-4 1-5L12 3z"/></svg></div>
+            <h3 class="why-us__title">Atención rápida</h3>
+            <p class="why-us__text">Disponemos de servicio de atención rápida en la mayoría de los casos. Solicitamos turno y nos esforzamos por resolver el problema el mismo día.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cómo trabajamos -->
+    <section class="process" id="proceso" aria-label="Cómo trabajamos">
+      <div class="container">
+        <h2 class="section__title">Cómo trabajamos</h2>
+        <p class="section__subtitle">Nuestro proceso paso a paso para tu tranquilidad</p>
+        <div class="process__steps">
+          <div class="process__step">
+            <div class="process__number">1</div>
+            <div class="process__content">
+              <h3 class="process__title">Contactanos</h3>
+              <p class="process__description">Completá el formulario o escribí por WhatsApp para solicitar tu diagnóstico. Respondemos en menos de 30 minutos.</p>
+            </div>
+          </div>
+          <div class="process__step">
+            <div class="process__number">2</div>
+            <div class="process__content">
+              <h3 class="process__title">Diagnóstico a domicilio</h3>
+              <p class="process__description">Un técnico especializado se acerca a tu hogar para evaluar el lavarropas y determinar la causa del problema sin costo.</p>
+            </div>
+          </div>
+          <div class="process__step">
+            <div class="process__number">3</div>
+            <div class="process__content">
+              <h3 class="process__title">Presupuesto sin cargo</h3>
+              <p class="process__description">Te entregamos un presupuesto detallado y cerrado antes de iniciar cualquier reparación. Aprobado el presupuesto, procedemos al trabajo.</p>
+            </div>
+          </div>
+          <div class="process__step">
+            <div class="process__number">4</div>
+            <div class="process__content">
+              <h3 class="process__title">Reparación y garantía</h3>
+              <p class="process__description">Realizamos la reparación con repuestos de calidad y ofrecemos garantía escrita de 90 días. Tu lavarropa listo para usar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials" aria-label="Testimonios">
+      <div class="container">
+        <h2 class="section__title">Qué dicen nuestros clientes</h2>
+        <div class="testimonials__grid">
+          <article class="testimonial">
+            <p class="testimonial__quote">"Llamé por una falla en el centrifugado y el técnico llegó el mismo día. Diagnosticó y reparó en menos de una hora. Excelente atención y precio justo."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__name">María G.</div>
+              <div class="testimonial__neighborhood">Palermo, CABA</div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p class="testimonial__quote">"Mi lavarropa de carga frontal hacía un ruido muy fuerte. Revisaron la bomba y el rodamiento. Ahora funciona como nuevo. Muy profesionales."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__name">Carlos R.</div>
+              <div class="testimonial__neighborhood">San Isidro, GBA</div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p class="testimonial__quote">"Presupuesto claro antes de hacer cualquier cosa. Cambiaron la bobina y hoy lavo con total tranquilidad. La garantía de 90 días me dio confianza."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__name">Lucía M.</div>
+              <div class="testimonial__neighborhood">Mitre, CABA</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="faq" id="faq" aria-label="Preguntas frecuentes">
+      <div class="container">
+        <h2 class="section__title">Preguntas frecuentes</h2>
+        <div class="faq__items">
+          <details class="faq__item">
+            <summary class="faq__summary">¿Cuánto cuesta el diagnóstico?</summary>
+            <div class="faq__answer">El diagnóstico es sin cargo si contratás la reparación. Si no continuás, tiene un valor de $5.000 (consultar por tu zona).</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__summary">¿Cuánto tarda una reparación?</summary>
+            <div class="faq__answer">En la mayoría de los casos completamos la reparación el mismo día. Problemas complejos pueden requerir una segunda visita, lo cual te comunicamos con anticipación.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__summary">¿Qué marcas atienden?</summary>
+            <div class="faq__answer">Trabajamos con todas las marcas principales: Drean, LG, Samsung, Whirlpool, Electrolux, Bosch, Frididaire, Mabe y muchas más. También equipos de gama alta y vintage.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__summary">¿Cómo pago el servicio?</summary>
+            <div class="faq__answer">Aceptamos efectivo, transferencias bancarias, y tarjetas de débito y crédito. El pago se realiza al finalizar el servicio.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__summary">¿La reparación tiene garantía?</summary>
+            <div class="faq__answer">Sí, todas nuestras reparaciones incluyen garantía escrita de 90 días por el trabajo realizado y los repuestos instalados.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__summary">¿Atienden emergencias?</summary>
+            <div class="faq__answer">Sí, contamos con servicio de atención prioritaria. Consultá disponibilidad por WhatsApp o teléfono; pueden aplicarse diferencias de tarifa por horario fuera de lo habitual.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto" aria-label="Contacto">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__info">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__subtitle">Solicitá tu presupuesto o consultá por nuestras disponibles</p>
+            <address class="contact__address">
+              <div class="contact__item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.33 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.33-8.67A2 2 0 0 1 4.11 2 19.95 19.95 0 0 1 2 4.11 19.79 19.79 0 0 1 3.33 2h3a2 2 0 0 1 2 1.72 19.79 19.79 0 0 1-3.33 8.66 19.5 19.5 0 0 1-6 6 19.79 19.79 0 0 1-3.33 8.67A2 2 0 0 1 4.11 22z"/></path><line x1="15" y1="5" x2="3" y2="5"/></svg>
+                <span>Sede principal</span>
+              </div>
+              <div class="contact__item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.33 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.33-8.67A2 2 0 0 1 4.11 2 19.95 19.95 0 0 1 2 4.11 19.79 19.79 0 0 1 3.33 2h3a2 2 0 0 1 2 1.72 19.79 19.79 0 0 1-3.33 8.66 19.5 19.5 0 0 1-6 6 19.79 19.79 0 0 1-3.33 8.67A2 2 0 0 1 4.11 22z"/></path><line x1="15" y1="5" x2="3" y2="5"/></svg>
+                <span>+54 9 11 4567-8910</span>
+              </div>
+              <div class="contact__item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.33 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.33-8.67A2 2 0 0 1 4.11 2 19.95 19.95 0 0 1 2 4.11 19.79 19.79 0 0 1 3.33 2h3a2 2 0 0 1 2 1.72 19.79 19.79 0 0 1-3.33 8.66 19.5 19.5 0 0 1-6 6 19.79 19.79 0 0 1-3.33 8.67A2 2 0 0 1 4.11 22z"/></path><line x1="15" y1="5" x2="3" y2="5"/></svg>
+                <a href="https://wa.me/5491112345678" target="_blank" rel="noopener">WhatsApp</a>
+              </div>
+              <div class="contact__item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4"/></svg>
+                <span>Lunes a Viernes: 8:00 - 19:00</span>
+              </div>
+              <div class="contact__item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2v1a6 6 0 0 0 6 6h4a6 6 0 0 0 6-6V2"/></svg>
+                <span>Sábados: 9:00 - 14:00</span>
+              </div>
+            </address>
+            <p class="contact__email">soporte@serviteclavarropas.com</p>
+          </div>
+          <form class="contact__form" id="contactForm" novalidate>
+            <h2 class="contact__form-title">Solicitá tu presupuesto</h2>
+            <p class="contact__form-desc">Completá el formulario y nos pondremos en contacto en menos de 30 minutos</p>
+            <div class="form__group">
+              <label for="formNombre" class="form__label">Nombre completo</label>
+              <input type="text" name="nombre" id="formNombre" class="form__input" placeholder="Tu nombre" required />
+            </div>
+            <div class="form__group">
+              <label for="formTelefono" class="form__label">Teléfono/WhatsApp</label>
+              <input type="tel" name="telefono" id="formTelefono" class="form__input" placeholder="+54 9 11 1234-5678" required />
+            </div>
+            <div class="form__group">
+              <label for="formMarca" class="form__label">Marca y modelo</label>
+              <select name="marca" id="formMarca" class="form__input" required>
+                <option value="" disabled selected>Seleccioná la marca</option>
+                <option value="Drean">Drean</option>
+                <option value="LG">LG</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Whirlpool">Whirlpool</option>
+                <option value="Electrolux">Electrolux</option>
+                <option value="Bosch">Bosch</option>
+                <option value="Otra">Otra</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="formFalla" class="form__label">Descripción de la falla</label>
+              <textarea name="falla" id="formFalla" class="form__textarea" rows="3" placeholder="Qué problema tiene tu lavarropa?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary w-100">Enviar solicitud</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="#" class="footer__logo" aria-label="Servicio Técnico de Lavarropas">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <path d="M12 2v4l2 8L12 22l-8-4 1-5L12 3z"/>
+            </svg>
+            <span>SERVITEC</span>
+          </a>
+          <p class="footer__desc">Reparación de lavarropas a domicilio. Garantía 90 días. Atención rápida y presupuestos cerrados.</p>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Enlaces rápidos</h3>
+          <ul class="footer__links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#por-que">Por qué nosotros</a></li>
+            <li><a href="#proceso">Cómo trabajamos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="tel:+5491112345678">+54 9 11 4567-8910</a></li>
+            <li><a href="https://wa.me/5491112345678" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:soporte@serviteclavarropas.com">soporte@serviteclavarropas.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Horarios</h3>
+          <p>Lunes a Viernes: 8:00 - 19:00</p>
+          <p>Sábados: 9:00 - 14:00</p>
+          <p>Domingos y feriados: No atendemos</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Servicio Técnico de Lavarropas. Todos los derechos reservados.</p>
+        <p class="footer__made">Hecho con atención y esmero en cada reparación.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scripts -->
+  <script>
+    // Add JS class to html for reveal animations
+    document.documentElement.classList.add('js');
+  </script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
