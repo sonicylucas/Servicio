@@ -1,10 +1,4 @@
 {
-  " cleanUrls": true,
-  "trailingSlash": false,
   "framework": null,
-  "functions": {
-    "": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "trailingSlash": false
 }
